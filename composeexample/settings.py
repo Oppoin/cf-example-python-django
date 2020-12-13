@@ -55,7 +55,7 @@ MIDDLEWARE = [
     "django.contrib.messages.middleware.MessageMiddleware",
     "reversion.middleware.RevisionMiddleware",
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
-    "core.middleware.RequestDomainMiddleware",
+    # "core.middleware.RequestDomainMiddleware",
 ]
 
 ROOT_URLCONF = 'composeexample.urls'
